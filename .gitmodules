@@ -2,3 +2,7 @@
 	path = submodules/BetterDiscordAddons
 	url = https://github.com/zerebos/BetterDiscordAddons.git
 	branch = master
+[submodule "submodules/DiscordFreeEmojis"]
+	path = submodules/DiscordFreeEmojis
+	url = https://github.com/An00nymushun/DiscordFreeEmojis.git
+	branch = master
