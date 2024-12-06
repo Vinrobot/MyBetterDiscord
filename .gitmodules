@@ -1,0 +1,4 @@
+[submodule "submodules/BetterDiscordAddons"]
+	path = submodules/BetterDiscordAddons
+	url = https://github.com/zerebos/BetterDiscordAddons.git
+	branch = master
