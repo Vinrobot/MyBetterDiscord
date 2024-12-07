@@ -5,18 +5,18 @@ all:
 
 copy: DoNotTrack HideDisabledEmojis DiscordFreeEmojis64px
 
-DoNotTrack: $(PLUGINS_DIR)/DoNotTrack/DoNotTrack.plugin.js
-$(PLUGINS_DIR)/DoNotTrack/DoNotTrack.plugin.js: submodules/BetterDiscordAddons/Plugins/DoNotTrack/DoNotTrack.plugin.js
+DoNotTrack: $(PLUGINS_DIR)/DoNotTrack.plugin.js
+$(PLUGINS_DIR)/DoNotTrack.plugin.js: submodules/BetterDiscordAddons/Plugins/DoNotTrack/DoNotTrack.plugin.js
 	mkdir -p $(dir $@)
 	cp $< $@
 
-HideDisabledEmojis: $(PLUGINS_DIR)/HideDisabledEmojis/HideDisabledEmojis.plugin.js
-$(PLUGINS_DIR)/HideDisabledEmojis/HideDisabledEmojis.plugin.js: submodules/BetterDiscordAddons/Plugins/HideDisabledEmojis/HideDisabledEmojis.plugin.js
+HideDisabledEmojis: $(PLUGINS_DIR)/HideDisabledEmojis.plugin.js
+$(PLUGINS_DIR)/HideDisabledEmojis.plugin.js: submodules/BetterDiscordAddons/Plugins/HideDisabledEmojis/HideDisabledEmojis.plugin.js
 	mkdir -p $(dir $@)
 	cp $< $@
 
-DiscordFreeEmojis64px: $(PLUGINS_DIR)/DiscordFreeEmojis64px/DiscordFreeEmojis64px.plugin.js
-$(PLUGINS_DIR)/DiscordFreeEmojis64px/DiscordFreeEmojis64px.plugin.js: submodules/DiscordFreeEmojis/DiscordFreeEmojis64px.plugin.js
+DiscordFreeEmojis64px: $(PLUGINS_DIR)/DiscordFreeEmojis64px.plugin.js
+$(PLUGINS_DIR)/DiscordFreeEmojis64px.plugin.js: submodules/DiscordFreeEmojis/DiscordFreeEmojis64px.plugin.js
 	mkdir -p $(dir $@)
 	cp $< $@
 
